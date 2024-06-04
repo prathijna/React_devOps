@@ -15,6 +15,7 @@ function POST() {
             state ? <p>id : {state.id}</p> : null
         }
         <button onClick={loadPost}>Get Post</button>
+        <button onClick={loadPost}>Get Post</button>
     </div>
   )
 }
